@@ -3,7 +3,7 @@ Installation
 
 For Windows:
 
-1) install first the MATLAB Runtime R2023b (version 23.2) that can be find here:
+1) install first the MATLAB Runtime R2023b (version 23.2) or R2025b (version 25.2) that can be find here:
 
    https://fr.mathworks.com/products/compiler/matlab-runtime.html
 
@@ -37,3 +37,8 @@ EasyFCS 2.1
 - Bug fixes.
 - Improvement: generate a text file with all fitting parameters when data are saved.
 - Improvement: possibility to analyse pair correlation.
+
+EasyFCS 2.2
+- Bug fixes.
+- Improvement: possibility to change the theme appearance.
+
