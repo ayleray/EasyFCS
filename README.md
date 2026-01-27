@@ -12,15 +12,15 @@ For Windows:
 
 For MacOS
 
-1) install first the Matlab Runtime R2024b (version 24.2) that can be find here:
+1) install first the Matlab Runtime R2024b (version 24.2) or R2025b (version 25.2) that can be find here:
 
    https://fr.mathworks.com/products/compiler/matlab-runtime.html
 
 2) extract the zip file.
 
-3) a) For MacOS with Intel chip, launch the MAPIsoftware executable.
+3) Launch the MAPIsoftware executable.
 
-   b) For MacOS with Apple silicon, you need to write in the terminal:
+   For MacOS with Apple silicon, you may need to write in the terminal:
 
       xattr -d com.apple.quarantine EasyFCS_App.app
 
