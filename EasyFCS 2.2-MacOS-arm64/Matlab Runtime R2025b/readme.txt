@@ -1,4 +1,4 @@
-EasyFCS_App Executable
+EasyFCS Executable
 
 1. Prerequisites for Deployment 
 
@@ -24,11 +24,11 @@ in the MathWorks Documentation Center.
 
 Files to Package for Standalone 
 ================================
--run_EasyFCS_App.sh (shell script for temporarily setting environment variables and 
-                     executing the application)
+-run_EasyFCS.sh (shell script for temporarily setting environment variables and executing 
+                 the application)
    -to run the shell script, type
    
-       ./run_EasyFCS_App.sh <mcr_directory> <argument_list>
+       ./run_EasyFCS.sh <mcr_directory> <argument_list>
        
     at Linux or Mac command prompt. <mcr_directory> is the directory 
     where MATLAB Runtime(R2025b) is installed or the directory where 
@@ -38,22 +38,22 @@ Files to Package for Standalone
     If you have MATLAB Runtime(R2025b) installed in 
     /mathworks/home/application/R2025b, run the shell script as:
     
-       ./run_EasyFCS_App.sh /mathworks/home/application/R2025b
+       ./run_EasyFCS.sh /mathworks/home/application/R2025b
        
     If you have MATLAB installed in /mathworks/devel/application/matlab, 
     run the shell script as:
     
-       ./run_EasyFCS_App.sh /mathworks/devel/application/matlab
+       ./run_EasyFCS.sh /mathworks/devel/application/matlab
 -MCRInstaller.zip 
     Note: if end users are unable to download the MATLAB Runtime using the
     instructions in the previous section, include it when building your 
     component by clicking the "Runtime included in package" link in the
     Deployment Tool.
--The Macintosh bundle directory structure EasyFCS_App.app 
+-The Macintosh bundle directory structure EasyFCS.app 
     Note: this can be stored in an archive file with the zip command 
-    zip -r EasyFCS_App.zip EasyFCS_App.app
+    zip -r EasyFCS.zip EasyFCS.app
     or the tar command 
-    tar -cvf EasyFCS_App.tar EasyFCS_App.app
+    tar -cvf EasyFCS.tar EasyFCS.app
 -This readme file 
 
 
@@ -93,7 +93,7 @@ ${DYLD_LIBRARY_PATH}:MR/R2025b/runtime/maca64:MR/R2025b/sys/os/maca64:MR/R2025b/
         NOTE: The environment variable syntax utilizes forward 
               slashes (/), delimited by colons (:).  
         NOTE: When deploying standalone applications, you can
-              run the shell script file run_EasyFCS_App.sh 
+              run the shell script file run_EasyFCS.sh 
               instead of setting environment variables. See 
               section 2 "Files to Deploy and Package".    
 
